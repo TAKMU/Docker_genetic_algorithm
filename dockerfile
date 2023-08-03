@@ -1,4 +1,4 @@
-FROM python
+FROM python:3.12-rc-bullseye
 MAINTAINER Allan Miyazono <allan.miyazono@gmail.com>
 
 ENV PYTHONUNBUFFERED 1

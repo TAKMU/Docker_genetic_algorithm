@@ -2,7 +2,7 @@ version: '1'
 services:
   db:
     container_name: ai_db
-    image: "postgres"
+    image: "postgres:15.3"
     volumes:
        - ./data:/var/lib/postgresql/data
     env_file:
